@@ -47,12 +47,12 @@ class QtAT5 < Formula
     depends_on "python@3.9"
     depends_on "sdl2"
     depends_on "systemd"
+    depends_on "wayland"
     depends_on "xcb-util"
     depends_on "xcb-util-image"
     depends_on "xcb-util-keysyms"
     depends_on "xcb-util-renderutil"
     depends_on "xcb-util-wm"
-    depends_on "wayland"
     depends_on "zstd"
   end
 
